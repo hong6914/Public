@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumService", "WebApplication1\AlbumService.csproj", "{92DFA44C-61C4-4F59-B5F7-7851CA8833C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumService.BusinessLogic", "AlbumService.BusinessLogic\AlbumService.BusinessLogic.csproj", "{5D4BDF74-8A4D-4E3E-B7FA-C012A8F3D561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumService.DataAccess", "AlbumService.DataAccess\AlbumService.DataAccess.csproj", "{07A7794E-0231-4D03-B535-CAC86EAAD22A}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AlbumService.Database", "AlbumService.Database\AlbumService.Database.sqlproj", "{B5FED814-5F7E-4553-9C87-F900DF764A47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumService.Models", "AlbumService.Models\AlbumService.Models.csproj", "{66051252-6BEF-4A8D-8534-C52952D5F783}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlbumService.Utils", "AlbumService.Utils\AlbumService.Utils.csproj", "{2AAD9329-B7B5-4FED-AB90-749C99AA77E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92DFA44C-61C4-4F59-B5F7-7851CA8833C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DFA44C-61C4-4F59-B5F7-7851CA8833C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DFA44C-61C4-4F59-B5F7-7851CA8833C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DFA44C-61C4-4F59-B5F7-7851CA8833C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4BDF74-8A4D-4E3E-B7FA-C012A8F3D561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4BDF74-8A4D-4E3E-B7FA-C012A8F3D561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4BDF74-8A4D-4E3E-B7FA-C012A8F3D561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4BDF74-8A4D-4E3E-B7FA-C012A8F3D561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A7794E-0231-4D03-B535-CAC86EAAD22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A7794E-0231-4D03-B535-CAC86EAAD22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A7794E-0231-4D03-B535-CAC86EAAD22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A7794E-0231-4D03-B535-CAC86EAAD22A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FED814-5F7E-4553-9C87-F900DF764A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5FED814-5F7E-4553-9C87-F900DF764A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5FED814-5F7E-4553-9C87-F900DF764A47}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B5FED814-5F7E-4553-9C87-F900DF764A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5FED814-5F7E-4553-9C87-F900DF764A47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5FED814-5F7E-4553-9C87-F900DF764A47}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{66051252-6BEF-4A8D-8534-C52952D5F783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66051252-6BEF-4A8D-8534-C52952D5F783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66051252-6BEF-4A8D-8534-C52952D5F783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66051252-6BEF-4A8D-8534-C52952D5F783}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AAD9329-B7B5-4FED-AB90-749C99AA77E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AAD9329-B7B5-4FED-AB90-749C99AA77E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AAD9329-B7B5-4FED-AB90-749C99AA77E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AAD9329-B7B5-4FED-AB90-749C99AA77E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
